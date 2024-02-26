@@ -62,7 +62,7 @@
 }
 
 /* PC devices (992px and above) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .section-8{
     padding: 10rem 4rem 8rem 4rem;
     flex-direction: row-reverse;

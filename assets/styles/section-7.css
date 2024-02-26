@@ -22,7 +22,9 @@
   padding: 1.5rem 1.5rem;
 }
 
-
+.hidden{
+  display: none;
+}
 
 .section-7-container-2-sub-container-1 > img{
   width: 44px;
@@ -58,7 +60,7 @@
 }
 
 /* PC devices (992px and above) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .section-7{
     padding: 2rem 4rem 0 4rem;
   }
@@ -69,6 +71,14 @@
     width: 50% !important;
     font-size: 3.3rem !important;
   }
+
+  .testimonal-wrapper{
+    display: flex;
+  }
+
+  .hidden{
+  display: initial;
+}
 
 }
 
