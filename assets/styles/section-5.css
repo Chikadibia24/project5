@@ -73,7 +73,7 @@
 }
 
 /* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .section-5 {
     padding: 2rem 4rem 0 4rem;
   }
@@ -125,4 +125,11 @@
     width: 430px;
     height: 292px;
   }
+}
+
+
+
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
 }

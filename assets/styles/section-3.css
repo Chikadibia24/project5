@@ -109,7 +109,7 @@
 }
 
 /* PC devices (992px and above) */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 600px){
   .section-3{
     flex-direction: row-reverse;
     gap: 100px;
@@ -168,4 +168,9 @@
   margin-left: 35px;
 }
 
+}
+
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
 }

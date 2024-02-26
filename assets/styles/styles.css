@@ -186,7 +186,7 @@ p > span.color-skyblue{
 
 
 /* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   nav{
     padding: 0.7rem 4.5rem;
   }
@@ -252,4 +252,9 @@ p > span.color-skyblue{
   height: 48px;
   border-radius: 6px;
 }
+}
+
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
 }

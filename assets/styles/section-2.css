@@ -108,13 +108,11 @@
 }
 
 /* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .section-2{
     flex-direction: row;
     padding: 2rem 4rem 0 4rem
   }
-
-
 
 .section-2-h1{
   width: 85%;
@@ -151,4 +149,10 @@
   border-radius: 25px;
 }
   
+}
+
+
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
 }
