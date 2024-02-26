@@ -1,0 +1,129 @@
+.section-6{
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #020f33 65%, #fefeff 35%);
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.section-6-container-1{
+  width: 95%;
+  h1{
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+}
+
+.section-6-container-2,
+.section-6-container-3,
+.section-6-container-4{
+  width: 95%;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
+  padding: 1.5rem 1.5rem;
+}
+ 
+ .icon-circle{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  i{
+    color: #102a43;
+  }
+}
+
+.section-6-container-2{
+  border-top: 2px #ffc700 solid;
+}
+
+.section-6-container-3{
+  border-top: 2px #00d9ff solid;
+}
+
+.section-6-container-4{
+  border-top: 2px #ff5600  solid;
+}
+
+#yellow-circle-icon{
+  background-color: #ffc700;
+}
+ #blue-circle-icon{
+  background-color: #00d9ff;
+ }
+
+ #dark-yellow-circle-icon{
+  background-color: #ff5600;
+ }
+
+.section-6-h3{
+  color: #102a43;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+
+/* Mobile devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+  /* Your CSS rules for mobile devices */
+}
+
+/* Tablet devices (768px to 991px) */
+@media only screen and (min-width: 600px){
+  /* Your CSS rules for tablet devices */
+}
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
+  .section-6{
+    padding: 2rem 4rem 0 4rem;
+  }
+
+  .section-6-flex-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-6-container-2,
+  .section-6-container-3,
+  .section-6-container-4{
+    width: fit-content;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
+    padding: 2rem 0 1.5rem 2.8rem;
+  }
+
+  .section-6-h1{
+    margin-top: 100px !important;
+    margin-bottom: 10px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 65% !important;
+    font-size: 3.3rem !important;
+  }
+
+  .section-6-h3{
+    font-size: 1.25rem;
+    width: 85%;
+  }
+
+  .section-6-paragraph{
+    width: 90%;
+    font-size: 17px !important;
+  }
+
+}

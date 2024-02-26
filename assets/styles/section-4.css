@@ -1,0 +1,82 @@
+.section-4-container-2{
+   background: url(/assets/images/Mobile-App-High-Quality-BG.webp);
+  background-repeat:no-repeat;
+  background-size: 560px 520px;
+  background-position: right;
+
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
+
+.section-4-container-2-sub-container-1{
+  position: absolute;
+  top: 2908px;
+  left: 40px;
+  z-index: 1;
+}
+
+.section-4-container-2-sub-container-1 > img{
+  width: 300px;
+  height: 320px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
+}
+
+.section-4-container-2-sub-container-2{
+  margin-right: 0;
+  margin-left: 250px;
+}
+
+.section-4-container-2-sub-container-2 > img{
+  width: 269px;
+  height: 516px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
+}
+
+
+
+/* Mobile devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+  /* Your CSS rules for mobile devices */
+}
+
+/* Tablet devices (768px to 991px) */
+@media only screen and (min-width: 600px){
+  /* Your CSS rules for tablet devices */
+}
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
+  .section-4{
+    flex-direction: row;
+    padding: 2rem 4rem 0 4rem
+  }
+
+  .section-4-h1{
+  width: 85%;
+  font-size: 3.21rem;
+  span{
+    font-size: 3.41rem;
+  }
+}
+
+.section-4-paragraph{
+  width: 75%;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.section-4-container-2-sub-container-1{
+  position: absolute;
+  top: 2550px;
+  left: 695px;
+  z-index: 1;
+}
+
+}

@@ -1,0 +1,73 @@
+.section-7{
+  background-color: #fffdfa;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.section-7-container-1{
+  width: 95%;
+  margin: 10px;
+}
+
+.section-7-container-2{
+  width: 95%;
+  margin: 10px;
+  border: rgb(214, 214, 214) 1px solid;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
+  padding: 1.5rem 1.5rem;
+}
+
+
+
+.section-7-container-2-sub-container-1 > img{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.section-7-container-2-sub-container-2 > h4{
+  color: #102a43;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.section-7-container-2-sub-container-2 > p{
+  color: #102a43;
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+
+
+
+
+/* Mobile devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+  /* Your CSS rules for mobile devices */
+}
+
+/* Tablet devices (768px to 991px) */
+@media only screen and (min-width: 600px){
+  /* Your CSS rules for tablet devices */
+}
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
+  .section-7{
+    padding: 2rem 4rem 0 4rem;
+  }
+
+  .section-7-h1{
+    margin-top: 100px !important;
+    margin-bottom: 10px !important;
+    width: 50% !important;
+    font-size: 3.3rem !important;
+  }
+
+}

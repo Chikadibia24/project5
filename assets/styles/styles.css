@@ -1,0 +1,255 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins';
+  background-color: #f0f8ff;
+  margin: unset;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 2.1rem;
+  align-items: center;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav img{
+  width: 100px;
+  height: 28px;
+}
+
+nav ul, nav div{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 550;
+  color: #102a43;
+  &:hover{
+    color: #41beff;
+  }
+}
+
+nav div button:first-child{
+  border: none;
+  background-color: white;
+  color: #102a43;
+  font-size: 16px;
+  font-weight: 550;
+  &:hover{
+    color: #41beff;
+  }
+}
+
+nav div button:nth-child(2){
+  border: none;
+  color: #102a43;
+  font-size: 16px;
+  font-weight: 550;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  &:hover{
+    background-color: #06A0F1;
+    color:#fff;
+  }
+}
+
+nav h1:hover{
+  cursor: pointer;
+}
+
+.hero-section{
+  margin-top: 2rem;
+  margin-bottom: -15px;
+  background-image: linear-gradient(180deg, #f0f8ff, #fff, #fff);
+}
+
+#hero-bg{
+  background: url(/assets/images/Mobile-App-Hero-BG.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero-bg2{
+  background: white url(/assets/images/Mobile-App-Hero-BG-2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+   img{
+      width: 500px;
+      height: 412px;
+      margin: auto;
+  }
+}
+
+.hero-section-div{
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+
+.hero-section-div:first-child{
+  margin: auto;
+  width: fit-content;
+}
+
+#p-element-1{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  gap: 4px;
+  background-color: #e0f2f8;
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+#arrow-pointing-right{
+  width: 14px;
+  vertical-align: middle;
+}
+
+#para-span{
+  background-color: #06A0F1;
+  color:#fff;
+  padding: 0 0.6rem;
+  border-radius: 100px;
+  font-size: 13px;
+}
+
+p > span.color-skyblue{
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.hero-section-div h1{
+  text-align: center;
+  color: #102a43;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin: 0;
+  span{
+    font-size: 2.45rem;
+  }
+}
+
+.hero-section-div p{
+  text-align: center;
+  color: #486581;
+  font-size: 16px;
+}
+
+.color-skyblue{
+  color: #41beff;
+}
+
+#store-logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.store-logo{
+  width: 8rem;
+  border-radius: 6px;
+}
+
+
+
+
+
+/* Mobile devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+  /* Your CSS rules for mobile devices */
+}
+
+/* Tablet devices (768px to 991px) */
+@media only screen and (min-width: 600px) {
+  /* Your CSS rules for tablet devices */
+}
+
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
+  nav{
+    padding: 0.7rem 4.5rem;
+  }
+
+  nav ul, nav div{
+  display: inherit;
+}
+
+nav ul{
+  gap: 30px;
+}
+
+nav div{
+  gap: 10px;
+}
+
+nav h1{
+  display: none;
+}
+
+#hero-bg2{
+  background-size: 550px 500px;
+   img{
+      width: 760px;
+      height: 626px;
+      margin: auto;
+  }
+}
+
+#p-element-1{
+  padding: 0.3rem 0.2rem 0.3rem 0.2rem;
+}
+
+p > span.color-skyblue{
+  font-size: 15px;
+}
+
+#para-span{
+  padding: 0.17rem 0.9rem;
+  font-size: 14px;
+}
+
+.hero-section-div h1{
+  width: 75%;
+  font-size: 4.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  span{
+    font-size: 4.5rem;
+  }
+}
+
+.hero-section-div p{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.store-logo{
+  margin-top: 20px;
+  width: 156px;
+  height: 48px;
+  border-radius: 6px;
+}
+}
