@@ -92,6 +92,8 @@ nav h1:hover{
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
    img{
       width: 100%;
@@ -184,11 +186,18 @@ p > span.color-skyblue{
 }
 
 
+/* Mobile Design */
+@media only screen and (max-width: 420px){
+  
+
+}
+
+
 
 
 
 /* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 421px){
   nav{
     padding: 0.7rem 4.5rem;
   }
@@ -210,11 +219,11 @@ nav h1{
 }
 
 #hero-bg2{
-  background-size: 550px 500px;
+  width: 100%;
+  background-size: contain;
    img{
-      width: 760px;
-      height: 626px;
-      margin: auto;
+      width: 59%;
+      height: 59%;
   }
 }
 
@@ -254,6 +263,7 @@ p > span.color-skyblue{
   height: 48px;
   border-radius: 6px;
 }
+
 }
 
 
@@ -269,7 +279,7 @@ p > span.color-skyblue{
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   nav{
   display: flex;
   justify-content: space-between;
@@ -432,7 +442,7 @@ p > span.color-skyblue{
 }
 
 
-}
+} */
 
 
 

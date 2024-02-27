@@ -78,7 +78,7 @@
 
 
 /* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 421px){
   .section-6{
     padding: 2rem 4rem 0 4rem;
   }
@@ -106,7 +106,7 @@
     margin-left: auto !important;
     margin-right: auto !important;
     width: 65% !important;
-    font-size: 3.3rem !important;
+    font-size: 3.4rem !important;
   }
 
   .section-6-h3{
@@ -128,7 +128,7 @@
 @media only screen and (max-width: 600px) {...}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .section-6{
   background-color: transparent;
   background-image: linear-gradient(180deg, #020f33 65%, #fefeff 35%);
@@ -202,7 +202,9 @@
   font-size: 1rem;
   font-weight: 600;
 }
-}
+} */
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {...}

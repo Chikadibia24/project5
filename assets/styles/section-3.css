@@ -101,18 +101,8 @@
 
 
 
-/* Mobile devices (up to 767px) */
-@media only screen and (max-width: 767px) {
-  /* Your CSS rules for mobile devices */
-}
-
-/* Tablet devices (768px to 991px) */
-@media only screen and (min-width: 600px){
-  /* Your CSS rules for tablet devices */
-}
-
 /* PC devices (992px and above) */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 421px){
   .section-3{
     flex-direction: row-reverse;
     gap: 100px;
@@ -162,13 +152,20 @@
 
 .section-3-container-2-sub-container-2{
   position: absolute;
-  top: 1960px;
-  left: 73px;
+  top: 2040px;
+  left: 70px;
   z-index: 1;
 }
 
+.section-3-container-2-sub-container-2 > img{
+  width: 330px;
+  height: 200px;
+}
+
 .section-3-container-2-sub-container-3 > img{
-  margin-left: 35px;
+  width: 255px;
+  height: 475px;
+  margin-left: 150px;
 }
 
 }
