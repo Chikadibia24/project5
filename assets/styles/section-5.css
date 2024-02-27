@@ -6,7 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem 1.3rem 0 1.3rem;
+  width: 100%;
 }
 
 .section-5-container-2 {
@@ -15,12 +16,13 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  width: 100%;
 }
 
 .section-5-container-2-sub-container-1,
 .section-5-container-2-sub-container-2 {
   background-color: #fff;
-  width: 95%;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
   display: flex;
@@ -45,32 +47,24 @@
 .section-5-h3 {
   text-align: center;
   color: #102a43;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 90%;
 }
 
 .section-5-container-2-sub-container-1-img-container > img {
-  width: 509px;
-  height: 291px;
+  width: 100%;
+  height: 100%;
 }
 
 .section-5-container-2-sub-container-2-img-container > img {
-  width: 509px;
-  height: 354px;
+  width: 100%;
+  height: 100%;
 }
 
-/* Mobile devices (up to 767px) */
-@media only screen and (max-width: 767px) {
-  /* Your CSS rules for mobile devices */
-}
 
-/* Tablet devices (768px to 991px) */
-@media only screen and (min-width: 600px){
-  /* Your CSS rules for tablet devices */
-}
 
 /* PC devices (992px and above) */
 @media only screen and (min-width: 768px) {
@@ -130,6 +124,81 @@
 
 
 
-/* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-5 {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #eff8ff 55%, #020f33 45%);
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem 0 2rem;
 }
+
+.section-5-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-5-container-2-sub-container-1,
+.section-5-container-2-sub-container-2 {
+  background-color: #fff;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+/* .section-5-container-2-sub-container-2{
+  background-color: #fff;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem 2rem 2rem;
+} */
+
+.section-5-h3 {
+  text-align: center;
+  color: #102a43;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.section-5-container-2-sub-container-1-img-container > img {
+  width: 509px;
+  height: 291px;
+}
+
+.section-5-container-2-sub-container-2-img-container > img {
+  width: 509px;
+  height: 354px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

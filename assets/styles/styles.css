@@ -1,3 +1,4 @@
+/* Extra small devices (phones, 600px and down) */
 *{
   box-sizing: border-box;
 }
@@ -6,10 +7,266 @@ body{
   font-family: 'Poppins';
   background-color: #f0f8ff;
   margin: unset;
+  width: 100%;
 }
 
 
 nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem 2.1rem;
+  align-items: center;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav img{
+  width: 100px;
+  height: 28px;
+}
+
+nav ul, nav div{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 550;
+  color: #102a43;
+  &:hover{
+    color: #41beff;
+  }
+}
+
+nav div button:first-child{
+  border: none;
+  background-color: white;
+  color: #102a43;
+  font-size: 16px;
+  font-weight: 550;
+  &:hover{
+    color: #41beff;
+  }
+}
+
+nav div button:nth-child(2){
+  border: none;
+  color: #102a43;
+  font-size: 16px;
+  font-weight: 550;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  &:hover{
+    background-color: #06A0F1;
+    color:#fff;
+  }
+}
+
+nav h1:hover{
+  cursor: pointer;
+}
+
+.hero-section{
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: -15px;
+  background-image: linear-gradient(180deg, #f0f8ff, #fff, #fff);
+}
+
+#hero-bg{
+  background: url(/assets/images/Mobile-App-Hero-BG.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+#hero-bg2{
+  background: white url(/assets/images/Mobile-App-Hero-BG-2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 100%;
+   img{
+      width: 100%;
+      height: 100%;
+      margin: auto;
+  }
+}
+
+.hero-section-div{
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+
+/* .hero-section-div:first-child{
+  margin: auto;
+  width: 100%;
+} */
+
+#p-element-1{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  gap: 2px;
+  background-color: #e0f2f8;
+  padding: 0.25rem 0.2rem 0.25rem 0.2rem;
+  border-radius: 50px;
+  width: 100%;
+}
+
+#arrow-pointing-right{
+  width: 12px;
+  vertical-align: middle;
+}
+
+#para-span{
+  background-color: #06A0F1;
+  color:#fff;
+  padding: 0 0.23rem;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+p > span.color-skyblue{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.hero-section-div h1{
+  text-align: center;
+  color: #102a43;
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin: 0;
+  span{
+    font-size: 2.35rem;
+    font-weight: 900;
+  }
+}
+
+.hero-section-div p{
+  text-align: center;
+  color: #486581;
+  font-size: 16px;
+}
+
+.color-skyblue{
+  color: #41beff;
+}
+
+#store-logo-container{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.store-logo{
+    width: 7.8rem;
+    height: 2.5rem;
+    border-radius: 8px;
+}
+
+
+
+
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
+  nav{
+    padding: 0.7rem 4.5rem;
+  }
+
+  nav ul, nav div{
+  display: inherit;
+}
+
+nav ul{
+  gap: 30px;
+}
+
+nav div{
+  gap: 10px;
+}
+
+nav h1{
+  display: none;
+}
+
+#hero-bg2{
+  background-size: 550px 500px;
+   img{
+      width: 760px;
+      height: 626px;
+      margin: auto;
+  }
+}
+
+#p-element-1{
+  padding: 0.3rem 0.2rem 0.3rem 0.2rem;
+}
+
+p > span.color-skyblue{
+  font-size: 15px;
+}
+
+#para-span{
+  padding: 0.17rem 0.9rem;
+  font-size: 14px;
+}
+
+.hero-section-div h1{
+  width: 75%;
+  font-size: 4.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  span{
+    font-size: 4.5rem;
+  }
+}
+
+.hero-section-div p{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.store-logo{
+  margin-top: 20px;
+  width: 156px;
+  height: 48px;
+  border-radius: 6px;
+}
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  nav{
   display: flex;
   justify-content: space-between;
   padding: 0.6rem 2.1rem;
@@ -171,90 +428,21 @@ p > span.color-skyblue{
 }
 
 
-
-
-
-/* Mobile devices (up to 767px) */
-@media only screen and (max-width: 767px) {
-  /* Your CSS rules for mobile devices */
-}
-
-/* Tablet devices (768px to 991px) */
-@media only screen and (min-width: 600px) {
-  /* Your CSS rules for tablet devices */
 }
 
 
-/* PC devices (992px and above) */
+
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  nav{
-    padding: 0.7rem 4.5rem;
-  }
 
-  nav ul, nav div{
-  display: inherit;
 }
 
-nav ul{
-  gap: 30px;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }
 
-nav div{
-  gap: 10px;
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
-nav h1{
-  display: none;
-}
-
-#hero-bg2{
-  background-size: 550px 500px;
-   img{
-      width: 760px;
-      height: 626px;
-      margin: auto;
-  }
-}
-
-#p-element-1{
-  padding: 0.3rem 0.2rem 0.3rem 0.2rem;
-}
-
-p > span.color-skyblue{
-  font-size: 15px;
-}
-
-#para-span{
-  padding: 0.17rem 0.9rem;
-  font-size: 14px;
-}
-
-.hero-section-div h1{
-  width: 75%;
-  font-size: 4.3rem;
-  margin-left: auto;
-  margin-right: auto;
-  span{
-    font-size: 4.5rem;
-  }
-}
-
-.hero-section-div p{
-  width: 45%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 18px;
-}
-
-.store-logo{
-  margin-top: 20px;
-  width: 156px;
-  height: 48px;
-  border-radius: 6px;
-}
-}
-
-
-/* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
 }

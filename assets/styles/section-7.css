@@ -1,6 +1,92 @@
 .section-7{
   background-color: #fffdfa;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 1.3rem 0 1.3rem;
+  width: 100%;
+}
+
+.section-7-container-1{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.section-7-container-2{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border: rgb(214, 214, 214) 1px solid;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
+  padding: 1.5rem 1.5rem;
+}
+
+.hidden{
+  display: none;
+}
+
+.section-7-container-2-sub-container-1 > img{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.section-7-container-2-sub-container-2 > h4{
+  color: #102a43;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.section-7-container-2-sub-container-2 > p{
+  color: #102a43;
+  font-size: 0.9rem;
+  margin-top: 0;
+}
+
+
+
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
+  .section-7{
+    padding: 2rem 4rem 0 4rem;
+  }
+
+  .section-7-h1{
+    margin-top: 100px !important;
+    margin-bottom: 10px !important;
+    width: 50% !important;
+    font-size: 3.3rem !important;
+  }
+
+  .testimonal-wrapper{
+    display: flex;
+    gap: 30px;
+  }
+
+  .hidden{
+  display: initial;
+}
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-7{
+  background-color: #fffdfa;
+  display: flex;
   margin: auto;
   flex-direction: column;
   justify-content: center;
@@ -9,12 +95,16 @@
 
 .section-7-container-1{
   width: 95%;
-  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .section-7-container-2{
   width: 95%;
-  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
   border: rgb(214, 214, 214) 1px solid;
   background-color: #fff;
   border-radius: 10px;
@@ -45,45 +135,13 @@
   font-size: 0.8rem;
   margin-top: 0;
 }
-
-
-
-
-/* Mobile devices (up to 767px) */
-@media only screen and (max-width: 767px) {
-  /* Your CSS rules for mobile devices */
 }
 
-/* Tablet devices (768px to 991px) */
-@media only screen and (min-width: 600px){
-  /* Your CSS rules for tablet devices */
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
 
-/* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
-  .section-7{
-    padding: 2rem 4rem 0 4rem;
-  }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
 
-  .section-7-h1{
-    margin-top: 100px !important;
-    margin-bottom: 10px !important;
-    width: 50% !important;
-    font-size: 3.3rem !important;
-  }
-
-  .testimonal-wrapper{
-    display: flex;
-  }
-
-  .hidden{
-  display: initial;
-}
-
-}
-
-
-
-/* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

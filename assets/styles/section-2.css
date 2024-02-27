@@ -5,6 +5,169 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem 1.3rem 0 1.3rem;
+  width: 100%;
+}
+
+.section-2-div-1{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.non-hero-section-h1{
+  color: #102a43;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  span{
+    font-size: 1.75rem;
+    color: #41beff;
+    font-weight: 800;
+  }
+}
+
+.non-hero-section-paragraph{
+  color: #486581;
+  font-size: 15px;
+}
+
+.section-2-div-1 button{
+  border: none;
+  background-color: #41beff;
+  color: #fff;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 550;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  &:hover{
+    background-color: #06A0F1;
+  }
+}
+
+.section-2-div-2{
+  background: url(/assets/images/Mobile-App-Revolutionize-BG.webp);
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: right;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 1.8rem;
+}
+
+.section-2-div-2-sub-container{
+  width: 50%;
+}
+
+.section-2-div-2-child-1{
+  width: 50%;
+  position: absolute;
+  top: 1285px;
+  right: 160px;
+  z-index: 1;
+}
+
+.section-2-div-2-child-1 > img{
+  padding-left: 0.5rem;
+  width: 180px;
+  height: 75px;
+}
+
+.section-2-div-2-child-2{
+  width: 50%;
+  position: absolute;
+  top: 1465px;
+  left: 108px;
+  z-index: 1;
+}
+
+.section-2-div-2-child-2 > img{
+  border-radius: 50px;
+  width: 210px;
+  height: 36px;
+  box-shadow: 0px 20px 40px 0px rgba(63.99, 71.99, 81.99, 0.1);
+}
+
+.section-2-div-2-child-3 {
+  padding: 0;
+  margin-left: 0;
+    img{
+      margin-right: 25px;
+      width: 160px;
+      height: 220px;
+      box-shadow: 0px 20px 40px 0px rgba(63.99, 71.99, 81.99, 0.1);
+      border-radius: 10px;
+  }
+}
+
+
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
+  .section-2{
+    flex-direction: row;
+    padding: 2rem 4rem 0 4rem
+  }
+
+.section-2-h1{
+  width: 85%;
+  font-size: 3.21rem;
+  span{
+    font-size: 3.41rem;
+  }
+}
+
+.section-2-paragraph{
+  width: 75%;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.section-2-div-2{
+  background: url(/assets/images/Mobile-App-Revolutionize-BG.webp);
+  background-repeat:no-repeat;
+  background-size: 400px 395px;
+  background-position: right;
+}
+
+.section-2-div-2-child-1{
+  top: 1350px;
+  right: 340px;
+}
+
+.section-2-div-2-child-2{
+  top: 1585px;
+  left: 894px;
+}
+
+.section-2-div-2-child-3 > img{
+  border-radius: 25px;
+}
+  
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-2, .section-3, .section-4{
+  background-color: #fff;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem 2rem 0 2rem;
 }
 
@@ -93,66 +256,13 @@
   box-shadow: 0px 20px 40px 0px rgba(63.99, 71.99, 81.99, 0.1);
   border-radius: 10px;
 }
-
-
-
-
-/* Mobile devices (up to 767px) */
-@media only screen and (max-width: 767px) {
-  /* Your CSS rules for mobile devices */
 }
 
-/* Tablet devices (768px to 991px) */
-@media only screen and (min-width: 600px){
-  /* Your CSS rules for tablet devices */
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
 
-/* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
-  .section-2{
-    flex-direction: row;
-    padding: 2rem 4rem 0 4rem
-  }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
 
-.section-2-h1{
-  width: 85%;
-  font-size: 3.21rem;
-  span{
-    font-size: 3.41rem;
-  }
-}
-
-.section-2-paragraph{
-  width: 75%;
-  font-size: 17px;
-  margin-bottom: 40px;
-}
-
-.section-2-div-2{
-  background: url(/assets/images/Mobile-App-Revolutionize-BG.webp);
-  background-repeat:no-repeat;
-  background-size: 400px 395px;
-  background-position: right;
-}
-
-.section-2-div-2-child-1{
-  top: 1350px;
-  right: 340px;
-}
-
-.section-2-div-2-child-2{
-  top: 1585px;
-  left: 894px;
-}
-
-.section-2-div-2-child-3 > img{
-  border-radius: 25px;
-}
-  
-}
-
-
-
-/* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

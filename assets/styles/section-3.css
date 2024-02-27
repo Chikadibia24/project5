@@ -17,9 +17,10 @@
 }
 
 .non-hero-section-ul li{
+  padding: 0;
   color: #102a43;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   list-style-type: none;
 }
 
@@ -33,7 +34,7 @@
   align-items: center;
   justify-content: center;
   
-  margin-right: 15px;
+  margin-right: 5px;
   i{
     font-weight: bold;
     color: #41beff;
@@ -44,31 +45,24 @@
   background: url(/assets/images/Mobile-App-Connections-BG.webp);
   background-repeat:no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right;
 
   display: flex;
   justify-content: center;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
   padding-right: 1rem;
-}
-
-
-.section-3-container-2-sub-container-2{
-  position: absolute;
-  top: 2080px;
-  left: 40px;
-  z-index: 1;
+  padding-left: 1rem;
 }
 
 
 /*style bouncing phone icon*/
 #bouncing-phone-icon{
   background-color: #ffc700;
-  width: 43px;
-  height: 43px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
   display: flex;
@@ -80,18 +74,27 @@
   }
 }
 
+.section-3-container-2-sub-container-2{
+  position: absolute;
+  top: 2125px;
+  left: 23px;
+  z-index: 1;
+}
+
+
 /*style  image*/
 .section-3-container-2-sub-container-2 > img{
-  width: 329px;
-  height: 200px;
+  width: 170px;
+  height: 110px;
   border-radius: 10px;
   box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
 }
 
 /*styling image*/
 .section-3-container-2-sub-container-3 > img{
-  width: 269px;
-  height: 516px;
+  margin-left: 85px;
+  width: 140px;
+  height: 260px;
   border-radius: 10px;
   box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
 }
@@ -171,6 +174,17 @@
 }
 
 
-/* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
-}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

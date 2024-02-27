@@ -1,6 +1,90 @@
 .section-8{
   background-color: #fffdfa;
   display: flex;
+  flex-direction: column;
+  padding: 2rem 1.3rem 0 1.3rem;
+  width: 100%;
+}
+
+.section-8-container-1{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  h1{
+    color: #102a43;
+  font-size: 1.7rem;
+  font-weight: 700;
+  }
+  p{
+    color: #486581;
+    font-size: 17px;
+  }
+}
+
+.section-8-container-2{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  img{
+    width: 7.8rem;
+    height: 2.5rem;
+    border-radius: 8px;
+  }
+}
+
+.section-8-container-3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background: white url(/assets/images/Mobile-App-Hero-BG-2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+
+/* PC devices (992px and above) */
+@media only screen and (min-width: 768px) {
+  .section-8{
+    padding: 10rem 4rem 8rem 4rem;
+    flex-direction: row-reverse;
+  }
+
+  .section-8-h1{
+    margin-bottom: 10px !important;
+    width: 95% !important;
+    font-size: 3.3rem !important;
+  }
+
+  .section-8-paragraph{
+    width: 95%;
+    font-size: 18px !important;
+  }
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-8{
+  background-color: #fffdfa;
+  display: flex;
   margin: auto;
   flex-direction: column;
   padding: 2rem 2rem 0 2rem;
@@ -47,42 +131,13 @@
     height: 412px;
   }
 }
-
-
-
-
-/* Mobile devices (up to 767px) */
-@media only screen and (max-width: 767px) {
-  /* Your CSS rules for mobile devices */
 }
 
-/* Tablet devices (768px to 991px) */
-@media only screen and (min-width: 600px) {
-  /* Your CSS rules for tablet devices */
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
 
-/* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
-  .section-8{
-    padding: 10rem 4rem 8rem 4rem;
-    flex-direction: row-reverse;
-  }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
 
-  .section-8-h1{
-    margin-bottom: 10px !important;
-    width: 95% !important;
-    font-size: 3.3rem !important;
-  }
-
-  .section-8-paragraph{
-    width: 95%;
-    font-size: 18px !important;
-  }
-
-}
-
-
-
-/* PC devices (992px and above) */
-@media only screen and (min-width: 768px) {
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
