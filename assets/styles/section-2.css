@@ -32,6 +32,7 @@
 .non-hero-section-paragraph{
   color: #486581;
   font-size: 15px;
+  margin-bottom: 30px;
 }
 
 .section-2-div-1 button{
@@ -70,29 +71,29 @@
 .section-2-div-2-child-1{
   width: 50%;
   position: absolute;
-  top: 1285px;
-  right: 160px;
+  top: 1295px;
+  right: 193px;
   z-index: 1;
 }
 
 .section-2-div-2-child-1 > img{
   padding-left: 0.5rem;
-  width: 180px;
-  height: 75px;
+  width: 200px;
+  height: 85px;
 }
 
 .section-2-div-2-child-2{
   width: 50%;
   position: absolute;
-  top: 1465px;
-  left: 108px;
+  top: 1475px;
+  left: 140px;
   z-index: 1;
 }
 
 .section-2-div-2-child-2 > img{
   border-radius: 50px;
-  width: 210px;
-  height: 36px;
+  width: 250px;
+  height: 44px;
   box-shadow: 0px 20px 40px 0px rgba(63.99, 71.99, 81.99, 0.1);
 }
 
@@ -100,9 +101,9 @@
   padding: 0;
   margin-left: 0;
     img{
-      margin-right: 25px;
-      width: 160px;
-      height: 220px;
+      margin-right: 35px;
+      width: 200px;
+      height: 230px;
       box-shadow: 0px 20px 40px 0px rgba(63.99, 71.99, 81.99, 0.1);
       border-radius: 10px;
   }

@@ -15,14 +15,14 @@
 
 .section-4-container-2-sub-container-1{
   position: absolute;
-  top: 2765px;
-  left: 24px;
+  top: 2823px;
+  left: 40px;
   z-index: 1;
 }
 
 .section-4-container-2-sub-container-1 > img{
-  width: 160px;
-  height: 170px;
+  width: 190px;
+  height: 205px;
   border-radius: 10px;
   box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
 }
@@ -32,8 +32,8 @@
 }
 
 .section-4-container-2-sub-container-2 > img{
-  width: 150px;
-  height: 275px;
+  width: 190px;
+  height: 330px;
   border-radius: 10px;
   box-shadow: 0px 20px 40px 0px rgba(28, 22, 2, 0.23);
 }

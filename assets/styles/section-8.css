@@ -12,8 +12,8 @@
   margin-right: auto;
   h1{
     color: #102a43;
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 600;
   }
   p{
     color: #486581;
@@ -25,7 +25,6 @@
   width: 100%;
   margin-top: 30px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;

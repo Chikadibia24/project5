@@ -35,7 +35,7 @@ footer{
 .footer-container-2,
 .footer-container-3{
   display: flex;
-  gap: 50px;
+  gap: 80px;
   justify-content: space-between;
   text-align: center;
 }
