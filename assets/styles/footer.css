@@ -70,7 +70,7 @@ footer > p{
 
 
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down to 421px) */
 @media only screen and (min-width: 421px) and (max-width: 600px) {
   .footer-container-2,
   .footer-container-3{
@@ -80,9 +80,17 @@ footer > p{
 }
 
 
-
-/* PC devices (992px and above) */
+/* Small devices (portrait tablets and large phones, 600px and up to 768px) */
 @media only screen and (min-width: 601px){
+  .footer-container-2,
+  .footer-container-3{
+    gap: 200px;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up 992px) */
+@media only screen and (min-width: 768px){
   .footer-container{
     flex-direction: row;
     gap: 80px;

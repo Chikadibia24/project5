@@ -109,7 +109,7 @@
 
 
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down to 421px) */
 @media only screen and (min-width: 421px) and (max-width: 600px) {
   .section-2-div-2-child-1{
   top: 1295px;
@@ -146,9 +146,46 @@
 }
 
 
+/* Small devices (portrait tablets and large phones, 600px and up to 768px) */
+@media only screen and (min-width: 601px){
+  .section-2-div-2-child-1{
+  top: 1210px;
+  left: 15px;
+  
+}
+  
+  .section-2-div-2-child-1 > img{
+  padding-left: 0.5rem;
+  width: 320px;
+  height: 150px;
+}
 
-/* PC devices (992px and above) */
-@media only screen and (min-width: 601px) {
+.section-2-div-2-child-2{
+  top: 1520px;
+  left: 210px;
+}
+
+.section-2-div-2-child-2 > img{
+  width: 360px;
+  height: 64px;
+}
+
+.section-2-div-2-child-3 {
+    img{
+      margin-left: 170px;
+      margin-right: 0;
+      width: 330px;
+      height: 410px;
+      border-radius: 20px;
+  }
+}
+  
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up 992px) */
+@media only screen and (min-width: 768px) {
   .section-2{
     flex-direction: row;
     padding: 2rem 4rem 0 4rem

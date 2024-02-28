@@ -40,7 +40,7 @@
 
 
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down to 421px) */
 @media only screen and (min-width: 421px) and (max-width: 600px) {
   .section-4-container-2{
     background-size: 500px 375px;
@@ -69,8 +69,36 @@
 
 
 
-/* PC devices (992px and above) */
+/* Small devices (portrait tablets and large phones, 600px and up to 768px) */
 @media only screen and (min-width: 601px){
+    .section-4-container-2{
+    background-size: contain;
+    background-position: center;
+  }
+
+  .section-4-container-2-sub-container-1{
+  position: absolute;
+  top: 2995px;
+  left: 40px;
+  z-index: 1;
+}
+
+  .section-4-container-2-sub-container-1 > img{
+    width: 320px;
+    height: 350px;
+  }
+
+  .section-4-container-2-sub-container-2 > img{
+    margin-left: 55px;
+    width: 300px;
+    height: 540px;
+  }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up 992px) */
+@media only screen and (min-width: 768px){
   .section-4{
     flex-direction: row;
     padding: 2rem 4rem 0 4rem

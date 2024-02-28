@@ -65,7 +65,7 @@
 }
 
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down to 421px) */
 @media only screen and (min-width: 421px) and (max-width: 600px) {
   .section-5-h1 {
     margin-left: auto;
@@ -79,9 +79,16 @@
 }
 
 
-
-/* PC devices (992px and above) */
+/* Small devices (portrait tablets and large phones, 600px and up to 768px) */
 @media only screen and (min-width: 601px){
+  .section-5-h3 {
+  width: 31%;
+}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up 992px) */
+@media only screen and (min-width: 768px){
   .section-5 {
     padding: 2rem 4rem 0 4rem;
   }
