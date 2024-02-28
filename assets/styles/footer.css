@@ -79,10 +79,9 @@ footer > p{
   }
 
   .footer-container-1{
+    align-items: start;
   h4{
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 60%;
   }
 }
 
