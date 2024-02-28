@@ -111,11 +111,8 @@
 
 
 
-
-
-
 /* PC devices (992px and above) */
-@media only screen and (min-width: 421px){
+@media only screen and (min-width: 421px) {
   .section-2{
     flex-direction: row;
     padding: 2rem 4rem 0 4rem
