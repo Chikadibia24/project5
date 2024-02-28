@@ -109,8 +109,46 @@
 
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 421px) and (max-width: 600px) {
+  .section-2-div-2-child-1{
+  top: 1290px;
+  left: 48px;
+  
+}
+  
+  .section-2-div-2-child-1 > img{
+  padding-left: 0.5rem;
+  width: 290px;
+  height: 135px;
+}
+
+.section-2-div-2-child-2{
+  top: 1540px;
+  left: 227px;
+}
+
+.section-2-div-2-child-2 > img{
+  width: 345px;
+  height: 60px;
+}
+
+.section-2-div-2-child-3 {
+    img{
+      margin-left: 200px;
+      margin-right: 0;
+      width: 275px;
+      height: 330px;
+      border-radius: 20px;
+  }
+}
+
+}
+
+
+
 /* PC devices (992px and above) */
-@media only screen and (min-width: 421px) {
+@media only screen and (min-width: 601px) {
   .section-2{
     flex-direction: row;
     padding: 2rem 4rem 0 4rem

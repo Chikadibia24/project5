@@ -81,8 +81,14 @@
 
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 421px) and (max-width: 600px) {
+
+}
+
+
 /* PC devices (992px and above) */
-@media only screen and (min-width: 421px){
+@media only screen and (min-width: 601px){
   .section-6{
     padding: 2rem 4rem 0 4rem;
   }

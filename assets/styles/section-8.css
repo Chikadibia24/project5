@@ -60,9 +60,15 @@
 
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 421px) and (max-width: 600px) {
+
+}
+
+
 
 /* PC devices (992px and above) */
-@media only screen and (min-width: 421px){
+@media only screen and (min-width: 6011px){
   .section-8{
     padding: 10rem 4rem 8rem 4rem;
     flex-direction: row-reverse;

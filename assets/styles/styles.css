@@ -194,18 +194,26 @@ p > span.color-skyblue{
 }
 
 
-/* Mobile Design */
-@media only screen and (max-width: 420px){
-  
 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 421px) and (max-width: 600px) {
+  .hero-section-div h1{
+  
+  font-size: 2.3rem;
+  font-weight: 800;
+  span{
+    font-size: 2.65rem;
+    font-weight: 900;
+  }
+}
 }
 
 
 
-
-
 /* PC devices (992px and above) */
-@media only screen and (min-width: 421px){
+@media only screen and (min-width: 601px){
   nav{
     padding: 0.7rem 4.5rem;
   }
@@ -278,10 +286,7 @@ p > span.color-skyblue{
 
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
 
-}
 
 
 
