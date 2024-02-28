@@ -112,8 +112,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 421px) and (max-width: 600px) {
   .section-2-div-2-child-1{
-  top: 1290px;
-  left: 48px;
+  top: 1315px;
+  left: 40px;
   
 }
   
@@ -124,13 +124,13 @@
 }
 
 .section-2-div-2-child-2{
-  top: 1540px;
-  left: 227px;
+  top: 1535px;
+  left: 200px;
 }
 
 .section-2-div-2-child-2 > img{
-  width: 345px;
-  height: 60px;
+  width: 300px;
+  height: 52px;
 }
 
 .section-2-div-2-child-3 {
