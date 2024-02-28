@@ -79,9 +79,11 @@ footer > p{
   }
 
   .footer-container-1{
-    align-items: start;
+    align-items: center;
+    justify-content: center;
   h4{
-    width: 60%;
+    text-align: center;
+    width: 65%;
   }
 }
 
