@@ -78,10 +78,48 @@
 
 
 /* Medium devices (landscape tablets, 768px and up 992px) */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 769px){
+  .section-8{
+    padding: 10rem 2.5rem 8rem 2.5rem;
+    flex-direction: row-reverse;
+  }
+
+  .section-8-container-2{
+    justify-content: left;
+  }
+
+  .section-8-container-3{
+    img{
+      width: 92%;
+      height: 98%;
+    }
+  }
+
+  .section-8-h1{
+    margin-bottom: 10px !important;
+    width: 95% !important;
+    font-size: 2.3rem !important;
+  }
+
+  .section-8-paragraph{
+    width: 95%;
+    font-size: 18px !important;
+  }
+
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up 992px) */
+@media only screen and (min-width: 993px){
   .section-8{
     padding: 10rem 4rem 8rem 4rem;
     flex-direction: row-reverse;
+  }
+
+  .section-8-container-2{
+    justify-content: left;
   }
 
   .section-8-container-3{

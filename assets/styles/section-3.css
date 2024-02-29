@@ -158,9 +158,58 @@
 }
 
 
+/* Medium devices (landscape tablets, 768px and up 992px) */
+@media only screen and (min-width: 769px){
+    .section-3{
+    flex-direction: row-reverse;
+    gap: 100px;
+    padding: 2rem 2.5rem 0 2.5rem
+  }
+
+  .section-3-container-2{
+    background-size: contain;
+    background-position: left;
+  }
+
+  .section-3-container-2-sub-container-2{
+  position: absolute;
+  top: 1700px;
+  left: 30px;
+  z-index: 1;
+}
+
+.section-3-container-2-sub-container-2 > img{
+  width: 270px;
+  height: 170px;
+}
+
+.section-3-container-2-sub-container-3 > img{
+  width: 225px;
+  height: 415px;
+  margin-left: 70px;
+  }
+
+  .section-3-h1{
+  font-size: 2.1rem;
+  font-weight: 700;
+  span{
+    font-size: 2.1rem;
+    font-weight: 800;
+  }
+}
+
+.section-3-paragraph{
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+
+}
+
 
 /* Medium devices (landscape tablets, 768px and up 992px) */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 993px){
   .section-3{
     flex-direction: row-reverse;
     gap: 100px;

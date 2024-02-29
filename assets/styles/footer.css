@@ -90,7 +90,51 @@ footer > p{
 
 
 /* Medium devices (landscape tablets, 768px and up 992px) */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 769px){
+  .footer-container{
+    flex-direction: row;
+    padding-right: 5rem;
+    gap: 50px;
+  }
+
+  .footer-container-1{
+    align-items: center;
+    justify-content: center;
+  h4{
+    text-align: center;
+    width: 65%;
+  }
+}
+
+  .footer-container-2,
+.footer-container-3{
+  gap: 50px;
+}
+
+.footer-container-3{
+  padding-bottom: 26px;
+}
+
+.footer-h3{
+  text-align: left;
+}
+
+.footer-sub-containers > ul{
+  text-align: left;
+}
+
+footer > p{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up 992px) */
+@media only screen and (min-width: 993px){
   .footer-container{
     flex-direction: row;
     gap: 80px;
