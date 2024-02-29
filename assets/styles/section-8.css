@@ -107,13 +107,30 @@
   }
 
 
-
 }
 
 
 
 /* Large devices (laptops/desktops, 993px and up to 1199px) */
-@media only screen and (min-width: 993px) {...}
+@media only screen and (min-width: 993px){
+  .section-8{
+    padding: 10rem 3rem 8rem 3rem;
+  }
+
+  .section-8-h1{
+    font-size: 3.3rem !important;
+  }
+
+  .section-8-container-2{
+    img{
+      margin-top: 20px;
+      width: 156px;
+      height: 48px;
+      border-radius: 6px;
+        }
+  }
+
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

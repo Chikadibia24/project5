@@ -208,11 +208,76 @@
 }
 
 
-
-
-
 /* Large devices (laptops/desktops, 993px and up to 1199px) */
-@media only screen and (min-width: 993px) {...}
+@media only screen and (min-width: 993px) {
+    .section-3{
+    /* flex-direction: row-reverse;
+    gap: 100px; */
+    padding: 2rem 3rem 0 3rem
+  }
+
+.section-3-h1{
+  width: 90%;
+  font-size: 3.21rem;
+  span{
+    font-size: 3.41rem;
+  }
+}
+
+.section-3-paragraph{
+  width: 98%;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.non-hero-section-ul li{
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+
+.check-circle{
+  padding-left: 9px;
+  padding-right: 13px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+}
+
+#bouncing-phone-icon{
+  background-color: #ffc700;
+  width: 65px;
+  height: 65px;
+}
+
+.section-3-container-2{
+  background-size: contain;
+}
+
+.section-3-container-2-sub-container-1{
+  display: flex;
+  justify-content: center;
+}
+
+.section-3-container-2-sub-container-2{
+  position: absolute;
+  top: 2195px;
+  left: 50px;
+  z-index: 1;
+}
+
+.section-3-container-2-sub-container-2 > img{
+  width: 330px;
+  height: 200px;
+}
+
+.section-3-container-2-sub-container-3 > img{
+  width: 255px;
+  height: 475px;
+  margin-left: 150px;
+}
+
+
+
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

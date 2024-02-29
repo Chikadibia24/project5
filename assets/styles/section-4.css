@@ -142,10 +142,46 @@
 
 
 
-
-
 /* Large devices (laptops/desktops, 993px and up to 1199px) */
-@media only screen and (min-width: 993px) {...}
+@media only screen and (min-width: 993px) {
+  .section-4{
+    /* flex-direction: row; */
+    padding: 2rem 3rem 0 3rem
+  }
+
+  .section-4-h1{
+  width: 85%;
+  font-size: 3.21rem;
+  span{
+    font-size: 3.41rem;
+  }
+}
+
+.section-4-paragraph{
+  width: 85%;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.section-4-container-2-sub-container-1{
+  position: absolute;
+  top: 2795px;
+  left: 585px;
+  z-index: 1;
+}
+
+.section-4-container-2-sub-container-1 > img{
+  width: 300px;
+  height: 315px;
+}
+
+.section-4-container-2-sub-container-2 > img{
+  width: 245px;
+  height: 455px;
+}
+
+
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

@@ -260,24 +260,71 @@ p > span.color-skyblue{
 
 /* Large devices (laptops/desktops, 993px and up to 1199px) */
 @media only screen and (min-width: 993px) {
-  .hero-section-div h1{
-    width: 85%;
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-left: auto;
-    margin-right: auto;
-    span{
-      font-size: 3.65rem;
-      font-weight: 800;
-    }
+  nav{
+    padding: 0.7rem 4.5rem;
   }
 
-  .hero-section-div p{
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-    font-size: 18px;
+  nav ul, nav div{
+  display: inherit;
+}
+
+nav ul{
+  gap: 30px;
+}
+
+nav div{
+  gap: 10px;
+}
+
+nav h1{
+  display: none;
+}
+
+#hero-bg2{
+  /* width: 100%;
+  background-size: contain; */
+   img{
+      width: 68%;
+      height: 68%;
   }
+}
+
+#p-element-1{
+  padding: 0.3rem 0.2rem 0.3rem 0.2rem;
+}
+
+p > span.color-skyblue{
+  font-size: 15px;
+}
+
+#para-span{
+  padding: 0.17rem 0.9rem;
+  font-size: 14px;
+}
+
+.hero-section-div h1{
+  width: 75%;
+  font-size: 4.3rem;
+  /* margin-left: auto;
+  margin-right: auto; */
+  span{
+    font-size: 4.5rem;
+  }
+}
+
+.hero-section-div p{
+  width: 50%;
+  /* margin-left: auto;
+  margin-right: auto;
+  font-size: 18px; */
+}
+
+.store-logo{
+  margin-top: 20px;
+  width: 156px;
+  height: 48px;
+  border-radius: 6px;
+}
 
 
 }

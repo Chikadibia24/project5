@@ -108,7 +108,6 @@
 }
 
 
-
 /* Extra small devices (phones, 600px and down to 421px) */
 @media only screen and (min-width: 421px) and (max-width: 600px) {
   .section-2-div-2-child-1{
@@ -183,7 +182,6 @@
 }
 
 
-
 /* Medium devices (landscape tablets, 769px and up to 992px) */
 @media only screen and (min-width: 769px){
   .section-2{
@@ -247,7 +245,62 @@
 
 
 /* Large devices (laptops/desktops, 993px and up to 1199px) */
-@media only screen and (min-width: 993px) {...}
+@media only screen and (min-width: 993px) {
+
+  .section-2{
+    /* flex-direction: row; */
+    padding: 2rem 3rem 0 3rem
+  }
+
+.section-2-h1{
+  width: 85%;
+  font-size: 3.21rem;
+  span{
+    font-size: 3.41rem;
+  }
+}
+
+.section-2-paragraph{
+  width: 85%;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.section-2-div-2-child-1{
+  top: 1395px;
+  left: 540px;
+  right: 0;
+}
+
+.section-2-div-2-child-1 > img{
+  padding-left: 0.5rem;
+  width: 270px;
+  height: 125px;
+}
+
+.section-2-div-2-child-2{
+  top: 1665px;
+  left: 670px;
+}
+
+.section-2-div-2-child-2 > img{
+  width: 320px;
+  height: 58px;
+}
+
+.section-2-div-2-child-3 {
+    img{
+      margin-left: 60px;
+      margin-right: 0;
+      width: 300px;
+      height: 360px;
+      border-radius: 20px;
+  }
+}
+  
+
+
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -271,12 +324,12 @@
   margin-bottom: 40px;
 }
 
-.section-2-div-2{
+/* .section-2-div-2{
   background: url(/assets/images/Mobile-App-Revolutionize-BG.webp);
   background-repeat:no-repeat;
   background-size: contain;
   background-position: right;
-}
+} */
 
 .section-2-div-2-child-1{
   top: 1355px;
