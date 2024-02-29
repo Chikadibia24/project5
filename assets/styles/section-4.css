@@ -122,7 +122,7 @@
 
 .section-4-container-2-sub-container-1{
   position: absolute;
-  top: 2150px;
+  top: 2215px;
   left: 480px;
   z-index: 1;
 }
@@ -141,8 +141,15 @@
 }
 
 
-/* Medium devices (landscape tablets, 768px and up 992px) */
-@media only screen and (min-width: 993px){
+
+
+
+/* Large devices (laptops/desktops, 993px and up to 1199px) */
+@media only screen and (min-width: 993px) {...}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
   .section-4{
     flex-direction: row;
     padding: 2rem 4rem 0 4rem

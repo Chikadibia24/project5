@@ -133,8 +133,14 @@ footer > p{
 
 
 
-/* Medium devices (landscape tablets, 768px and up 992px) */
-@media only screen and (min-width: 993px){
+
+
+/* Large devices (laptops/desktops, 993px and up to 1199px) */
+@media only screen and (min-width: 993px) {...}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
   .footer-container{
     flex-direction: row;
     gap: 80px;

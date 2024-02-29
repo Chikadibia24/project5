@@ -257,8 +257,34 @@ p > span.color-skyblue{
 }
 
 
-/* Medium devices (landscape tablets, 768px and up 992px) */
-@media only screen and (min-width: 993px){
+
+/* Large devices (laptops/desktops, 993px and up to 1199px) */
+@media only screen and (min-width: 993px) {
+  .hero-section-div h1{
+    width: 85%;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    span{
+      font-size: 3.65rem;
+      font-weight: 800;
+    }
+  }
+
+  .hero-section-div p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    font-size: 18px;
+  }
+
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
   nav{
     padding: 0.7rem 4.5rem;
   }
