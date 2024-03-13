@@ -74,6 +74,25 @@
   }
 }
 
+.bouncing-yellow-div{
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(5px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
 .section-3-container-2-sub-container-2{
   position: absolute;
   top: 2155px;
